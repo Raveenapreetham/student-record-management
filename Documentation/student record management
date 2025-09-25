@@ -1,0 +1,203 @@
+-----Overview-------
+
+* This program is a Python-based Student Record Management System that allows users to:
+
+1.Add students with their details.
+
+2.Update student marks.
+
+3.Delete student records.
+
+4.Find the top student by average marks.
+
+5.Display all student records (sorted by department and name).
+
+6.Persist data in a JSON file (students.json), so records are saved between runs.
+
+--------Project Structure-----------
+
+Student Class
+Represents an individual student.
+
+StudentManagement Class
+Manages the collection of students, handles file storage, and implements CRUD operations.
+
+Main Program (main())
+Provides a menu-based interface for user interaction.
+
+-------------Classes and Methods---------------
+1. class Student
+
+Represents a student with personal and academic information.
+
+----Attributes----
+
+id → Student ID (int)
+
+name → Student name (string)
+
+age → Age (int)
+
+department → Department name (string)
+
+marks → Dictionary of subjects and their scores ({subject: marks})
+
+----------Methods------------------
+
+__init__(self, student_id, name, age, department, marks)
+Constructor to initialize a student object.
+
+average_marks(self)
+Returns the average marks of the student.
+If no marks are available, returns 0.
+
+to_dict(self)
+Converts the student object to a dictionary (used when saving to JSON).
+
+from_dict(data) (staticmethod)
+Creates a Student object from a dictionary (used when loading from JSON).
+
+2. class StudentManagement
+
+Manages multiple students and handles persistence in JSON file.
+
+--------------Attributes------------------
+
+filename → JSON file name (default: "students.json")
+
+students → List of Student objects
+
+------------Methods--------------
+
+__init__(self, filename="students.json")
+Initializes management system and loads students from JSON.
+
+load_students(self)
+Loads students from JSON file (if file exists).
+
+save_students(self)
+Saves all student records to JSON file.
+
+add_student(self, student)
+Adds a new student. Prevents duplicate student IDs.
+
+update_marks(self, student_id, subject, score)
+Updates marks for a specific subject of a student.
+
+delete_student(self, student_id)
+Deletes a student record by ID.
+
+highest_average_student(self)
+Finds and prints the student with the highest average marks.
+
+print_students(self)
+Prints all students, sorted by department and then by name.
+
+3. Main Program (main())
+
+Provides a menu-driven interface.
+
+------------Menu Options----------
+
+Add Student → Enter ID, Name, Age, Dept, and Marks (multiple subjects).
+
+Update Student Marks → Update marks for a subject by ID.
+
+Delete Student → Delete a student record by ID.
+
+Show Top Student by Average → Display student with highest average marks.
+
+Show All Students → Display all student records in tabular format.
+
+Exit → Exit the system.
+
+---------Run------------------
+             python student_management.py
+
+Example Run
+===== Student Record Management System =====
+1. Add Student
+2. Update Student Marks
+3. Delete Student
+4. Show Top Student by Average
+5. Show All Students
+6. Exit
+
+
+🔹 Case 1: Add Student
+
+Enter your choice: 1
+
+Enter ID: 101
+Enter Name: Raveena
+Enter Age: 20
+Enter Department: CSE
+Enter Subject (or 'done' to finish): Maths
+Enter marks for Maths: 90
+Enter Subject (or 'done' to finish): Java
+Enter marks for Python: 89
+Enter Subject (or 'done' to finish): Python
+Enter marks for Python: 87
+Enter Subject (or 'done' to finish): English
+Enter marks for Python: 86
+Enter Subject (or 'done' to finish): done
+
+✅ Student Raveena added successfully.
+
+
+🔹 Case 2: Update Marks
+
+Enter your choice: 2
+Enter Student ID: 112
+Enter Subject: Maths
+Enter New Marks: 95
+✅ Marks updated for student Manoj.
+
+🔹 Case 3: Delete Student
+
+Enter your choice: 3
+Enter Student ID: 112
+✅ Student Manoj deleted successfully.
+
+
+(If ID doesn’t exist → ❌ Student ID not found.)
+
+🔹 Case 4: Show Top Student
+
+Enter your choice: 4
+🏆 Top Student: Raveena (ID: 101), Average Marks: 87.50
+
+🔹 Case 5: Show All Students
+
+Enter your choice: 5
+
+📋 Student Records:
+ID: 101, Name: Raveena, Age: 20, Dept: CSE, Marks: {'Maths': 90, 'Python': 85}
+ID: 112, Name: Manoj, Age: 23, Dept: BCA, Marks: {'Maths': 95, 'Java': 79, 'Python': 87, 'English': 86}
+
+🔹 Case 6: Exit
+Enter your choice: 6
+Exiting... Goodbye!
+
+
+----------File Storage (students.json)----------------
+
+Students are stored in JSON format for persistence.
+Example content:
+
+[
+    { 
+    "id": "101", 
+    "name": "Raveena", 
+    "age": 22, 
+    "department": "CSE", 
+    "marks": { 
+        "Maths": 90, 
+        "Java": 89, 
+        "Python": 87, 
+        "English": 86 
+    } 
+}
+
+]
+

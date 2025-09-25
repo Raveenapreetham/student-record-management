@@ -1,0 +1,282 @@
+[
+    {
+        "id": "101",
+        "name": "Raveena",
+        "age": 20,
+        "department": "CSE",
+        "marks": { "Maths": 84, "Java": 79, "Python": 86, "English": 89 }
+    },
+    {
+        "id": "102",
+        "name": "Arjun",
+        "age": 21,
+        "department": "EEE",
+        "marks": { "Maths": 91, "Java": 76, "Python": 88, "English": 82 }
+    },
+    {
+        "id": "103",
+        "name": "Meera",
+        "age": 22,
+        "department": "CS",
+        "marks": { "Maths": 78, "Java": 85, "Python": 90, "English": 81 }
+    },
+    {
+        "id": "104",
+        "name": "Rahul",
+        "age": 23,
+        "department": "BCA",
+        "marks": { "Maths": 82, "Java": 80, "Python": 84, "English": 87 }
+    },
+    {
+        "id": "105",
+        "name": "Divya",
+        "age": 21,
+        "department": "CSE",
+        "marks": { "Maths": 89, "Java": 92, "Python": 85, "English": 90 }
+    },
+    {
+        "id": "106",
+        "name": "Vikram",
+        "age": 20,
+        "department": "EEE",
+        "marks": { "Maths": 76, "Java": 81, "Python": 79, "English": 88 }
+    },
+    {
+        "id": "107",
+        "name": "Anjali",
+        "age": 22,
+        "department": "CS",
+        "marks": { "Maths": 85, "Java": 83, "Python": 91, "English": 80 }
+    },
+    {
+        "id": "108",
+        "name": "Karthik",
+        "age": 23,
+        "department": "BCA",
+        "marks": { "Maths": 87, "Java": 78, "Python": 84, "English": 82 }
+    },
+    {
+        "id": "109",
+        "name": "Priya",
+        "age": 21,
+        "department": "CSE",
+        "marks": { "Maths": 92, "Java": 90, "Python": 88, "English": 91 }
+    },
+    {
+        "id": "110",
+        "name": "Suresh",
+        "age": 22,
+        "department": "EEE",
+        "marks": { "Maths": 80, "Java": 77, "Python": 83, "English": 85 }
+    },
+    {
+        "id": "111",
+        "name": "Sneha",
+        "age": 20,
+        "department": "CS",
+        "marks": { "Maths": 88, "Java": 86, "Python": 90, "English": 89 }
+    },
+    {
+        "id": "112",
+        "name": "Manoj",
+        "age": 23,
+        "department": "BCA",
+        "marks": { "Maths": 84, "Java": 79, "Python": 87, "English": 86 }
+    },
+    {
+        "id": "113",
+        "name": "Lakshmi",
+        "age": 21,
+        "department": "CSE",
+        "marks": { "Maths": 93, "Java": 88, "Python": 92, "English": 90 }
+    },
+    {
+        "id": "114",
+        "name": "Harish",
+        "age": 22,
+        "department": "EEE",
+        "marks": { "Maths": 79, "Java": 82, "Python": 84, "English": 87 }
+    },
+    {
+        "id": "115",
+        "name": "Pooja",
+        "age": 20,
+        "department": "CS",
+        "marks": { "Maths": 91, "Java": 85, "Python": 89, "English": 90 }
+    },
+    {
+        "id": "116",
+        "name": "Santosh",
+        "age": 23,
+        "department": "BCA",
+        "marks": { "Maths": 83, "Java": 80, "Python": 86, "English": 84 }
+    },
+    {
+        "id": "117",
+        "name": "Neha",
+        "age": 21,
+        "department": "CSE",
+        "marks": { "Maths": 95, "Java": 90, "Python": 94, "English": 93 }
+    },
+    {
+        "id": "118",
+        "name": "Rohit",
+        "age": 22,
+        "department": "EEE",
+        "marks": { "Maths": 82, "Java": 84, "Python": 80, "English": 86 }
+    },
+    {
+        "id": "119",
+        "name": "Shalini",
+        "age": 20,
+        "department": "CS",
+        "marks": { "Maths": 87, "Java": 89, "Python": 92, "English": 88 }
+    },
+    {
+        "id": "120",
+        "name": "Ajay",
+        "age": 23,
+        "department": "BCA",
+        "marks": { "Maths": 85, "Java": 82, "Python": 88, "English": 83 }
+    },
+    {
+        "id": "121",
+        "name": "Deepa",
+        "age": 21,
+        "department": "CSE",
+        "marks": { "Maths": 90, "Java": 93, "Python": 95, "English": 92 }
+    },
+    {
+        "id": "122",
+        "name": "Naveen",
+        "age": 22,
+        "department": "EEE",
+        "marks": { "Maths": 78, "Java": 81, "Python": 83, "English": 84 }
+    },
+    {
+        "id": "123",
+        "name": "Kavya",
+        "age": 20,
+        "department": "CS",
+        "marks": { "Maths": 92, "Java": 87, "Python": 90, "English": 91 }
+    },
+    {
+        "id": "124",
+        "name": "Varun",
+        "age": 23,
+        "department": "BCA",
+        "marks": { "Maths": 84, "Java": 80, "Python": 85, "English": 82 }
+    },
+    {
+        "id": "125",
+        "name": "Radha",
+        "age": 21,
+        "department": "CSE",
+        "marks": { "Maths": 94, "Java": 89, "Python": 96, "English": 95 }
+    },
+    {
+        "id": "126",
+        "name": "Praveen",
+        "age": 22,
+        "department": "EEE",
+        "marks": { "Maths": 80, "Java": 83, "Python": 81, "English": 85 }
+    },
+    {
+        "id": "127",
+        "name": "Gayathri",
+        "age": 20,
+        "department": "CS",
+        "marks": { "Maths": 90, "Java": 88, "Python": 91, "English": 89 }
+    },
+    {
+        "id": "128",
+        "name": "Mohan",
+        "age": 23,
+        "department": "BCA",
+        "marks": { "Maths": 83, "Java": 79, "Python": 84, "English": 82 }
+    },
+    {
+        "id": "129",
+        "name": "Sahana",
+        "age": 21,
+        "department": "CSE",
+        "marks": { "Maths": 96, "Java": 91, "Python": 94, "English": 92 }
+    },
+    {
+        "id": "130",
+        "name": "Kiran",
+        "age": 22,
+        "department": "EEE",
+        "marks": { "Maths": 82, "Java": 84, "Python": 85, "English": 83 }
+    },
+    {
+        "id": "131",
+        "name": "Anitha",
+        "age": 20,
+        "department": "CS",
+        "marks": { "Maths": 91, "Java": 90, "Python": 92, "English": 93 }
+    },
+    {
+        "id": "132",
+        "name": "Ramesh",
+        "age": 23,
+        "department": "BCA",
+        "marks": { "Maths": 85, "Java": 81, "Python": 87, "English": 86 }
+    },
+    {
+        "id": "133",
+        "name": "Bhavana",
+        "age": 21,
+        "department": "CSE",
+        "marks": { "Maths": 95, "Java": 92, "Python": 93, "English": 94 }
+    },
+    {
+        "id": "134",
+        "name": "Sanjay",
+        "age": 22,
+        "department": "EEE",
+        "marks": { "Maths": 81, "Java": 82, "Python": 84, "English": 85 }
+    },
+    {
+        "id": "135",
+        "name": "Ishita",
+        "age": 20,
+        "department": "CS",
+        "marks": { "Maths": 90, "Java": 89, "Python": 91, "English": 92 }
+    },
+    {
+        "id": "136",
+        "name": "Aravind",
+        "age": 23,
+        "department": "BCA",
+        "marks": { "Maths": 84, "Java": 80, "Python": 85, "English": 87 }
+    },
+    {
+        "id": "137",
+        "name": "Nisha",
+        "age": 21,
+        "department": "CSE",
+        "marks": { "Maths": 97, "Java": 94, "Python": 96, "English": 95 }
+    },
+    {
+        "id": "138",
+        "name": "Tejas",
+        "age": 22,
+        "department": "EEE",
+        "marks": { "Maths": 83, "Java": 85, "Python": 87, "English": 86 }
+    },
+    {
+        "id": "139",
+        "name": "Monika",
+        "age": 20,
+        "department": "CS",
+        "marks": { "Maths": 92, "Java": 91, "Python": 93, "English": 94 }
+    },
+    {
+        "id": "140",
+        "name": "Surya",
+        "age": 23,
+        "department": "BCA",
+        "marks": { "Maths": 86, "Java": 82, "Python": 88, "English": 85 }
+    }
+]
