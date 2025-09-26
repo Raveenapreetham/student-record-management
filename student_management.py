@@ -129,6 +129,15 @@ def main():
             dept = input("Enter Department: ")
             marks = {}
             while True:
+                 try:
+                    age = int(input("Enter Age: "))
+                    if age <= 0:
+                        print("❌ Age must be a positive number. Try again.")
+                        continue
+                    break
+                except ValueError:
+                   print("❌ Invalid input. Please enter a valid number.")
+
                 sub = input("Enter Subject (or 'done' to finish): ")
                 if sub.lower() == "done":
                     break
