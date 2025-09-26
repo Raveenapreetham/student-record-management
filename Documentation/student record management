@@ -32,7 +32,7 @@ Represents a student with personal and academic information.
 
 ----Attributes----
 
-id → Student ID (int)
+id → Student ID 
 
 name → Student name (string)
 
